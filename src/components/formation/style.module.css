@@ -1,0 +1,14 @@
+.formationWrapper {
+	display: flex;
+}
+
+.mainFormationWrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.years {
+	font-size: 0.75rem;
+	margin: 0;
+	color: palevioletred;
+}
