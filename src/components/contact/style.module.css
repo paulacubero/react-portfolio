@@ -1,0 +1,8 @@
+.iconsContacts {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.email {
+	cursor: pointer;
+}
