@@ -1,0 +1,16 @@
+.project {
+	display: flex;
+	justify-content: space-between;
+}
+
+.imgProject {
+	border: 0.2rem solid pink;
+	padding: 0.5rem 2rem;
+	margin: 1rem 0;
+}
+
+.infoProject {
+	border: 0.2rem solid pink;
+	padding: 0.5rem 2rem;
+	margin: 1rem 0;
+}
