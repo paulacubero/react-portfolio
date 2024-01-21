@@ -1,0 +1,15 @@
+.logoImg {
+	border-radius: 50%;
+	width: 10rem;
+}
+
+.iconoHtml:hover,
+.iconoCss:hover,
+.iconoJavascript:hover,
+.iconoReact:hover,
+.iconoNode:hover,
+.iconoJava:hover,
+.iconoMongoDB:hover,
+.iconoPostgress:hover {
+	filter: brightness(1.2);
+}
