@@ -1,13 +1,8 @@
 import style from './style.module.css';
+import iPaula from '../../assets/img/emojiPaula.webp';
 
 export function Logo() {
-	return (
-		<img
-			className={style.logoImg}
-			src='src/assets/img/emojiPaula.webp'
-			alt='logo'
-		/>
-	);
+	return <img className={style.logoImg} src={iPaula} alt='logo' />;
 }
 
 export function IconoHtml() {
