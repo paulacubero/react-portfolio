@@ -14,7 +14,7 @@ export function Projects() {
 						<a href=''>
 							<img
 								className={'imgProject'}
-								src='src/assets/img/duboMartial.webp'
+								src='/img/duboMartial.webp'
 								alt='img de prueba'
 							/>
 						</a>
@@ -37,7 +37,7 @@ export function Projects() {
 					<div className={'imgProjectWrapper'}>
 						<img
 							className={'imgProject'}
-							src='src/assets/img/duboMartial.webp'
+							src='/img/duboMartial.webp'
 							alt='img de prueba'
 						/>
 					</div>
