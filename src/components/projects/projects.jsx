@@ -11,11 +11,13 @@ export function Projects() {
 			<div className={style.mainFormationWrapper}>
 				<div className={style.project}>
 					<div className={style.imgProjectWrapper}>
-						<img
-							className={style.imgProject}
-							src='src/assets/img/DuboMartialArts.webp'
-							alt='img de prueba'
-						/>
+						<a href=''>
+							<img
+								className={style.imgProject}
+								src='src/assets/img/duboMartial.webp'
+								alt='img de prueba'
+							/>
+						</a>
 					</div>
 					<div className={style.infoProject}>
 						<h3 className={style.textProjects}>Dubo Martial Arts</h3>
@@ -35,7 +37,7 @@ export function Projects() {
 					<div className={style.imgProjectWrapper}>
 						<img
 							className={style.imgProject}
-							src='src/assets/img/DuboMartialArts.webp'
+							src='src/assets/img/duboMartial.webp'
 							alt='img de prueba'
 						/>
 					</div>
