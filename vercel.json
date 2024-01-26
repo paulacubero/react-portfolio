@@ -1,0 +1,18 @@
+{
+	"rewrites": [
+		{
+			"source": "/src/assets/img/:path*",
+			"destination": "/src/assets/img/:path*"
+		}
+	],
+	"routes": [
+		{
+			"src": "/src/assets/img/(.*)",
+			"dest": "/src/assets/img/$1"
+		},
+		{
+			"src": "/(.*)",
+			"dest": "/index.html"
+		}
+	]
+}
