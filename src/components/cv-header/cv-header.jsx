@@ -12,7 +12,7 @@ export function CVHeader() {
 					<div className={style.title}>
 						<h1>Paula Cubero</h1>
 						<div className={style.buttonWrapper}>
-							<button className={style.cvButton}>ES</button>
+							<button className={style.cvButtontop}>ES</button>
 							<button className={style.cvButtonLuz}></button>
 						</div>
 					</div>
@@ -20,7 +20,7 @@ export function CVHeader() {
 						<h3>Técnico superior de desarrollo de aplicaciones web.</h3>
 					</div>
 					<div className={style.buttonWrapper}>
-						<button className={style.cvButton}>CV</button>
+						<button className={style.cvButtoBottom}>CV</button>
 					</div>
 				</div>
 			</div>

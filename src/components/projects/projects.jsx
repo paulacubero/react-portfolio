@@ -3,37 +3,45 @@ import { IconoHtml } from '../logo/logo.jsx';
 import { IconoCss } from '../logo/logo.jsx';
 import { IconoJavascript } from '../logo/logo.jsx';
 import { IconoReact } from '../logo/logo.jsx';
-//import { Dubo } from '../../assets/img/DuboMartialArts.webp';
+import { Icononode } from '../logo/logo.jsx';
 
 export function Projects() {
 	return (
 		<div className={style.formationWrapper}>
 			<div className={style.mainFormationWrapper}>
 				<div className={style.project}>
-					<div className={style.imgProject}>
+					<div className={style.imgProjectWrapper}>
 						<img
-							src='../../assets/img/DuboMartialArts.webp'
+							className={style.imgProject}
+							src='src/assets/img/DuboMartialArts.webp'
 							alt='img de prueba'
 						/>
 					</div>
 					<div className={style.infoProject}>
-						<p className={style.textProjects}>Dubo Martial Arts</p>
+						<h3 className={style.textProjects}>Dubo Martial Arts</h3>
+						<h4 className={style.textProjects}>
+							Web multipagina, con conexión a Mongo Atlas y gestión de sesiones
+						</h4>
 						<div className={style.iconosProjects}>
 							<IconoHtml />
 							<IconoCss />
+							<IconoJavascript />
+							<Icononode />
 						</div>
 					</div>
 				</div>
 
 				<div className={style.project}>
-					<div className={style.imgProject}>
+					<div className={style.imgProjectWrapper}>
 						<img
-							src='../../assets/img/DuboMartialArts.webp'
+							className={style.imgProject}
+							src='src/assets/img/DuboMartialArts.webp'
 							alt='img de prueba'
 						/>
 					</div>
 					<div className={style.infoProject}>
-						<p className={style.textProjects}>Texto de prueba</p>
+						<h3 className={style.textProjects}>Proyecto 2</h3>
+						<h4 className={style.textProjects}>descripción del proyecto 2</h4>
 						<div className={style.iconosProjects}>
 							<IconoJavascript />
 							<IconoReact />

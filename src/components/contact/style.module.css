@@ -6,3 +6,7 @@
 .email {
 	cursor: pointer;
 }
+
+.logo:hover {
+	filter: brightness(150%);
+}

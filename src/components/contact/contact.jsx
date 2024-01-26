@@ -12,7 +12,7 @@ export function Contact() {
 		<div className={style.formationWrapper}>
 			<div className={style.mainFormationWrapper}>
 				<div className={style.iconsContacts}>
-					<a href='https://github.com/paulacubero'>
+					<a className={style.logo} href='https://github.com/paulacubero'>
 						<IconoGitHub />
 					</a>
 					<a href='https://www.linkedin.com/in/paula-cubero-encinas/'>

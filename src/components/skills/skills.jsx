@@ -14,18 +14,38 @@ export function Skills() {
 	return (
 		<div className={style.skillsWrapper}>
 			<div className={style.mainskillsWrapper}>
-				<IconoHtml />
-				<IconoCss />
-				<IconoJavascript />
-				<IconoReact />
-				<Icononode />
-				<IconoJava />
+				<div className={style.logo}>
+					<IconoHtml />
+				</div>
+				<div className={style.logo}>
+					<IconoCss />
+				</div>
+				<div className={style.logo}>
+					<IconoJavascript />
+				</div>
+				<div className={style.logo}>
+					<IconoReact />
+				</div>
+				<div className={style.logo}>
+					<Icononode />
+				</div>
+				<div className={style.logo}>
+					<IconoJava />
+				</div>
 			</div>
 			<div className={style.mainskillsWrapper}>
-				<IconoMongoDB />
-				<IconoPostgress />
-				<IconoMySQL />
-				<IconoGit />
+				<div className={style.logo}>
+					<IconoMongoDB />
+				</div>
+				<div className={style.logo}>
+					<IconoPostgress />
+				</div>
+				<div className={style.logo}>
+					<IconoMySQL />
+				</div>
+				<div className={style.logo}>
+					<IconoGit />
+				</div>
 			</div>
 		</div>
 	);

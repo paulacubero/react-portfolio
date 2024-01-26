@@ -9,7 +9,7 @@
 	display: flex;
 	flex-direction: column-reverse;
 	align-items: center;
-	margin: 1rem;
+	margin: 1rem 1rem 3rem 1rem;
 }
 
 .mainInfoWrapper {
@@ -18,27 +18,61 @@
 
 .buttonWrapper {
 	margin-top: 10px; /* Ajusta el margen según sea necesario */
+	display: flex;
 }
 
-.cvButton {
+.cvButtontop,
+.cvButtonLuz {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 10px;
+	cursor: pointer;
+	border: none;
+
+	/* Transición para el cambio de color al pasar el cursor */
+	transition: background-color 0.3s ease;
+}
+
+.cvButtontop {
 	background-color: white;
 	color: black;
-	border: 1px solid black;
-	padding: 5px 10px;
 	font-size: 14px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cvButtoBottom {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin: 1em 1em;
 	cursor: pointer;
-	border-radius: 5px;
+	border: none;
+
+	/* Transición para el cambio de color al pasar el cursor */
+	transition: background-color 0.3s ease;
+
+	background-color: white;
+	color: black;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .cvButtonLuz {
-	border: 1px solid black;
-	padding: 9px 10px;
-	font-size: 14px;
-	cursor: pointer;
-	border-radius: 5px;
-	background-image: url('../../assets/luz.svg');
-	width: 2rem;
-	height: 2rem;
+	background-image: url('../../assets/luz.svg'); /* Ajusta la ruta según sea necesario */
+	background-size: cover; /* Ajusta el tamaño del fondo según sea necesario */
+	padding: 0; /* Ajusta el relleno según sea necesario */
+}
+
+/* Cambia el color al pasar el cursor por encima */
+.cvButtoBottom:hover,
+.cvButtontop:hover,
+.cvButtonLuz:hover {
+	background-color: palevioletred; /* Cambia el color a rosa al pasar el cursor */
 }
 
 .title {
