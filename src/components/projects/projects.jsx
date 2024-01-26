@@ -1,4 +1,4 @@
-import style from './style.module.css';
+import './style.css';
 import { IconoHtml } from '../logo/logo.jsx';
 import { IconoCss } from '../logo/logo.jsx';
 import { IconoJavascript } from '../logo/logo.jsx';
@@ -7,24 +7,24 @@ import { Icononode } from '../logo/logo.jsx';
 
 export function Projects() {
 	return (
-		<div className={style.formationWrapper}>
-			<div className={style.mainFormationWrapper}>
-				<div className={style.project}>
-					<div className={style.imgProjectWrapper}>
+		<div className={'formationWrapper'}>
+			<div className={'mainFormationWrapper'}>
+				<div className={'project'}>
+					<div className={'imgProjectWrapper'}>
 						<a href=''>
 							<img
-								className={style.imgProject}
+								className={'imgProject'}
 								src='src/assets/img/duboMartial.webp'
 								alt='img de prueba'
 							/>
 						</a>
 					</div>
-					<div className={style.infoProject}>
-						<h3 className={style.textProjects}>Dubo Martial Arts</h3>
-						<h4 className={style.textProjects}>
+					<div className={'infoProject'}>
+						<h3 className={'textProjects'}>Dubo Martial Arts</h3>
+						<h4 className={'textProjects'}>
 							Web multipagina, con conexión a Mongo Atlas y gestión de sesiones
 						</h4>
-						<div className={style.iconosProjects}>
+						<div className={'iconosProjects'}>
 							<IconoHtml />
 							<IconoCss />
 							<IconoJavascript />
@@ -33,18 +33,18 @@ export function Projects() {
 					</div>
 				</div>
 
-				<div className={style.project}>
-					<div className={style.imgProjectWrapper}>
+				<div className={'project'}>
+					<div className={'imgProjectWrapper'}>
 						<img
-							className={style.imgProject}
+							className={'imgProject'}
 							src='src/assets/img/duboMartial.webp'
 							alt='img de prueba'
 						/>
 					</div>
-					<div className={style.infoProject}>
-						<h3 className={style.textProjects}>Proyecto 2</h3>
-						<h4 className={style.textProjects}>descripción del proyecto 2</h4>
-						<div className={style.iconosProjects}>
+					<div className={'infoProject'}>
+						<h3 className={'textProjects'}>Proyecto 2</h3>
+						<h4 className={'textProjects'}>descripción del proyecto 2</h4>
+						<div className={'iconosProjects'}>
 							<IconoJavascript />
 							<IconoReact />
 						</div>

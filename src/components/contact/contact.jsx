@@ -1,13 +1,9 @@
 import React from 'react';
 import style from './style.module.css';
 import { IconoGitHub, IconoLinkedin, IconoGmail } from '../logo/logo.jsx';
+import { enviarCorreo } from '../../services/enviarCorreo';
 
 export function Contact() {
-	const enviarCorreo = () => {
-		window.location.href =
-			'mailto:paulacubero.e@gmail.com?subject=Asunto del correo&body=Cuerpo del correo';
-	};
-
 	return (
 		<div className={style.formationWrapper}>
 			<div className={style.mainFormationWrapper}>
