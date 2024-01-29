@@ -19,8 +19,8 @@ export function Projects() {
 							/>
 						</a>
 					</div>
-					<div className={'infoProject'}>
-						<h3 className={'textProjects'}>Dubo Martial Arts</h3>
+					<div className={'infoProject gap-5'}>
+						<h3 className={'textProjects text-2xl'}>Dubo Martial Arts</h3>
 						<h4 className={'textProjects'}>
 							Web multipagina, con conexión a Mongo Atlas y gestión de sesiones
 						</h4>
@@ -41,12 +41,14 @@ export function Projects() {
 							alt='img de prueba'
 						/>
 					</div>
-					<div className={'infoProject'}>
-						<h3 className={'textProjects'}>Potfolio personal</h3>
+					<div className={'infoProject gap-5'}>
+						<h3 className={'textProjects text-2xl'}>Potfolio personal</h3>
 						<h4 className={'textProjects'}>
 							Portfolio de presentación hecho con react.
 						</h4>
 						<div className={'iconosProjects'}>
+							<IconoHtml />
+							<IconoCss />
 							<IconoJavascript />
 							<IconoReact />
 						</div>
