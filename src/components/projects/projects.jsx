@@ -42,8 +42,10 @@ export function Projects() {
 						/>
 					</div>
 					<div className={'infoProject'}>
-						<h3 className={'textProjects'}>Proyecto 2</h3>
-						<h4 className={'textProjects'}>descripción del proyecto 2</h4>
+						<h3 className={'textProjects'}>Potfolio personal</h3>
+						<h4 className={'textProjects'}>
+							Portfolio de presentación hecho con react.
+						</h4>
 						<div className={'iconosProjects'}>
 							<IconoJavascript />
 							<IconoReact />

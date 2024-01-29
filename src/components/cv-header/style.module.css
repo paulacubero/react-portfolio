@@ -1,28 +1,32 @@
 .presentationWrapper {
 	display: flex;
-	justify-content: space-between;
-	gap: 2rem;
+	flex-direction: column;
+	align-items: center;
 }
 
 .logoWrapper {
-	width: 20%;
 	display: flex;
-	flex-direction: column-reverse;
 	align-items: center;
-	margin: 1rem 1rem 3rem 1rem;
+	width: 100%;
+	justify-content: center;
 }
 
 .mainInfoWrapper {
-	width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 1rem;
+	align-items: center;
+	padding: 0.5rem 2rem;
 }
 
 .buttonWrapper {
-	margin-top: 10px; /* Ajusta el margen según sea necesario */
 	display: flex;
 	gap: 1rem;
+	z-index: 10;
 }
 
-.cvButtonLuz {
+.buttonLuz {
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
@@ -52,7 +56,7 @@
 	justify-content: center;
 }
 
-.cvButtonLuz {
+.buttonLuz {
 	background-image: url('../../assets/luz.svg'); /* Ajusta la ruta según sea necesario */
 	width: 45px;
 	height: 45px;
@@ -69,11 +73,39 @@
 
 /* Cambia el color al pasar el cursor por encima */
 .cvButton:hover,
-.cvButtonLuz:hover {
+.buttonLuz:hover {
 	background-color: palevioletred; /* Cambia el color a rosa al pasar el cursor */
 }
 
 .title {
 	display: flex;
 	justify-content: space-between;
+}
+
+.topSection {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: -4rem;
+}
+
+.titleMarginTop {
+	margin-top: 1rem;
+	font-size: 2rem;
+}
+
+.emailColor {
+	color: palevioletred;
+	text-decoration: none; /* Elimina cualquier subrayado inicial */
+	transition: color 0.3s ease; /* Agrega una transición para suavizar el cambio de color */
+}
+
+.emailColor:hover {
+	color: #ff9900; /* Cambia el color al pasar el cursor por encima */
+	text-decoration: underline; /* Subraya el texto al pasar el cursor por encima */
+}
+@media (max-width: 768px) {
+	.topSection {
+		margin-bottom: 0;
+	}
 }
