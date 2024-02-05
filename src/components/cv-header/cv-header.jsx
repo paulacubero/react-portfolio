@@ -12,6 +12,14 @@ export function CVHeader() {
 
 		// Establece el nuevo tema
 		htmlElement.setAttribute('data-theme', newTheme);
+
+		// Obtén todos los elementos svg
+		const svgElements = document.querySelectorAll('svg');
+
+		// Cambia el atributo fill de los elementos svg
+		svgElements.forEach((svg) => {
+			svg.setAttribute('fill', newTheme === 'dracula' ? '#000' : '#FFF');
+		});
 	};
 
 	return (

@@ -37,7 +37,7 @@ export function Projects() {
 					<div className={'imgProjectWrapper'}>
 						<img
 							className={'imgProject'}
-							src='/img/duboMartial.webp'
+							src='/img/portfolio.webp'
 							alt='img de prueba'
 						/>
 					</div>
