@@ -206,8 +206,8 @@ export function IconoGit() {
 export function IconoLinkedin() {
 	return (
 		<svg
-			width='60'
-			height='60'
+			width='50'
+			height='50'
 			xmlns='http://www.w3.org/2000/svg'
 			preserveAspectRatio='xMidYMid'
 			viewBox='0 0 256 256'>
@@ -223,8 +223,8 @@ export function IconoGitHub() {
 	return (
 		<svg
 			viewBox='0 0 256 250'
-			width='60'
-			height='60'
+			width='50'
+			height='50'
 			fill='currentColor'
 			xmlns='http://www.w3.org/2000/svg'
 			preserveAspectRatio='xMidYMid'>
@@ -239,8 +239,8 @@ export function IconoGitHub() {
 export function IconoGmail() {
 	return (
 		<svg
-			width='60'
-			height='60'
+			width='50'
+			height='50'
 			xmlns='http://www.w3.org/2000/svg'
 			viewBox='0 49.4 512 399.42'>
 			<g fill='none' fillRule='evenodd'>
@@ -272,14 +272,24 @@ export function IconoGmail() {
 	);
 }
 
-export function IconoContacto({ themeColor }) {
+export function IconoTailwind() {
 	return (
 		<svg
-			fill={themeColor}
+			viewBox='0 0 256 154'
+			width='45'
+			height='45'
 			xmlns='http://www.w3.org/2000/svg'
-			className='ionicon'
-			viewBox='0 0 512 512'>
-			<path d='M473 39.05a24 24 0 00-25.5-5.46L47.47 185h-.08a24 24 0 001 45.16l.41.13 137.3 58.63a16 16 0 0015.54-3.59L422 80a7.07 7.07 0 0110 10L226.66 310.26a16 16 0 00-3.59 15.54l58.65 137.38c.06.2.12.38.19.57 3.2 9.27 11.3 15.81 21.09 16.25h1a24.63 24.63 0 0023-15.46L478.39 64.62A24 24 0 00473 39.05z' />
+			preserveAspectRatio='xMidYMid'>
+			<defs>
+				<linearGradient x1='-2.778%' y1='32%' x2='100%' y2='67.556%' id='a'>
+					<stop stop-color='#2298BD' offset='0%' />
+					<stop stop-color='#0ED7B5' offset='100%' />
+				</linearGradient>
+			</defs>
+			<path
+				d='M128 0C93.867 0 72.533 17.067 64 51.2 76.8 34.133 91.733 27.733 108.8 32c9.737 2.434 16.697 9.499 24.401 17.318C145.751 62.057 160.275 76.8 192 76.8c34.133 0 55.467-17.067 64-51.2-12.8 17.067-27.733 23.467-44.8 19.2-9.737-2.434-16.697-9.499-24.401-17.318C174.249 14.743 159.725 0 128 0ZM64 76.8C29.867 76.8 8.533 93.867 0 128c12.8-17.067 27.733-23.467 44.8-19.2 9.737 2.434 16.697 9.499 24.401 17.318C81.751 138.857 96.275 153.6 128 153.6c34.133 0 55.467-17.067 64-51.2-12.8 17.067-27.733 23.467-44.8 19.2-9.737-2.434-16.697-9.499-24.401-17.318C110.249 91.543 95.725 76.8 64 76.8Z'
+				fill='url(#a)'
+			/>
 		</svg>
 	);
 }
