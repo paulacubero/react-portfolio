@@ -4,7 +4,8 @@ export function Card({ title, children }) {
 	return (
 		<div className={style.cardWrapper}>
 			<div className={style.cardTitle}>
-				<img className={style.titleIcon} src={icons[title]} />
+				<ion-icon name={icons[title]}></ion-icon>
+
 				<h3>{title}</h3>
 			</div>
 			{children}
