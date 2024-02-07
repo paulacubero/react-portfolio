@@ -9,6 +9,7 @@ import { IconoMongoDB } from '../logo/logo.jsx';
 import { IconoPostgress } from '../logo/logo.jsx';
 import { IconoMySQL } from '../logo/logo.jsx';
 import { IconoGit } from '../logo/logo.jsx';
+import { IconoTailwind } from '../logo/logo.jsx';
 
 export function Skills() {
 	return (
@@ -45,6 +46,9 @@ export function Skills() {
 				</div>
 				<div className={style.logo}>
 					<IconoGit />
+				</div>
+				<div className={style.logo}>
+					<IconoTailwind />
 				</div>
 			</div>
 		</div>
