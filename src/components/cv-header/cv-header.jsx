@@ -32,7 +32,8 @@ export function CVHeader() {
 					<div className={style.buttonWrapper}>
 						<a
 							className={'btn btn-circle btn-secondary'}
-							href='./archivo/CV_tecnologias_PaulaCuberoEncinas.pdf'>
+							href='./archivo/CV_tecnologias_PaulaCuberoEncinas.pdf'
+							target='_blank'>
 							CV
 						</a>
 						<label className='swap swap-rotate'>
