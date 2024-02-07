@@ -1,5 +1,5 @@
 import style from './style.module.css';
-import { IconoJavascript } from '../logo/logo.jsx';
+import { IconoJavascript, IconoTailwind } from '../logo/logo.jsx';
 import { IconoHtml } from '../logo/logo.jsx';
 import { IconoCss } from '../logo/logo.jsx';
 import { IconoReact } from '../logo/logo.jsx';
