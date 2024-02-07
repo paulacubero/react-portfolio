@@ -6,7 +6,7 @@ export function Card({ title, children }) {
 			<div className={style.cardTitle}>
 				<ion-icon name={icons[title]}></ion-icon>
 
-				<h3>{title}</h3>
+				<h3 className='text-3xl font-medium'>{title}</h3>
 			</div>
 			{children}
 		</div>

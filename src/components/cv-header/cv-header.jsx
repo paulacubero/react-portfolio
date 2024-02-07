@@ -30,7 +30,11 @@ export function CVHeader() {
 			<div className={style.presentationWrapper}>
 				<div className={style.topSection}>
 					<div className={style.buttonWrapper}>
-						<button className={'btn btn-circle btn-secondary'}>CV</button>
+						<a
+							className={'btn btn-circle btn-secondary'}
+							href='./archivo/CV_tecnologias_PaulaCuberoEncinas.pdf'>
+							CV
+						</a>
 						<label className='swap swap-rotate'>
 							{/* this hidden checkbox controls the state */}
 							<input type='checkbox' onClick={cambiarTema} />
@@ -61,7 +65,7 @@ export function CVHeader() {
 				</div>
 				<div className={style.mainInfoWrapper}>
 					<div className={style.title}>
-						<h1 className={style.titleMarginTop}>Paula Cubero</h1>
+						<h1 className='titleMarginTop text-6xl font-bold '>Paula Cubero</h1>
 					</div>
 					<h2 className='text-secondary hover:text-primary'>
 						paulacubero.e@gmail.com
