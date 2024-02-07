@@ -12,10 +12,10 @@ export function Formation() {
 				<ul className={'text-secondary sub-formacion'}>
 					Campus FP | 2022 - 2024
 				</ul>
-				<ul>BACHILLERATO DE CIENCIAS SOCIALES.</ul>
+				{/* <ul>BACHILLERATO DE CIENCIAS SOCIALES.</ul>
 				<ul className={'text-secondary sub-formacion'}>
 					Colegio Divina Pastora Getafe | 2020 - 2022
-				</ul>
+				</ul> */}
 			</div>
 		</div>
 	);
