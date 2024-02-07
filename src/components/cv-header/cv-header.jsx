@@ -3,10 +3,9 @@ import style from './style.module.css';
 
 export function CVHeader() {
 	const cambiarTema = () => {
-		const htmlElement = document.documentElement;
 		// Obtén el valor actual del atributo data-theme
-		const currentTheme = htmlElement.getAttribute('data-theme');
-
+		const htmlElement = document.documentElement;
+		let currentTheme = htmlElement.getAttribute('data-theme');
 		// Cambia el tema dependiendo del tema actual
 		const newTheme = currentTheme === 'dracula' ? 'cupcake' : 'dracula';
 		const iconos = document.querySelectorAll('.ionicon');
@@ -18,6 +17,20 @@ export function CVHeader() {
 		} else {
 			iconos.forEach((icono) => {
 				icono.classList.add('ionicon-light');
+			});
+		}
+
+		const logos = document.querySelectorAll('.logo');
+		// Verifica el tema actual y aplica la clase correspondiente a los iconos
+		if (currentTheme === 'dracula') {
+			logos.forEach((icono) => {
+				icono.classList.add('logo-white');
+				icono.classList.remove('logo-dark');
+			});
+		} else {
+			logos.forEach((icono) => {
+				icono.classList.remove('logo-white');
+				icono.classList.add('logo-dark');
 			});
 		}
 

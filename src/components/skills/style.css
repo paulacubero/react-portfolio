@@ -1,0 +1,37 @@
+.formationWrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mainskillsWrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 180px);
+	grid-template-rows: repeat(3, 120px);
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+.logo:hover {
+	transform: scale(1.05);
+}
+
+.logo {
+	transition: all 0.3s ease-in-out;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	padding: 30px;
+}
+
+.logo-white {
+	background-color: rgba(255, 255, 255, 0.1);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.logo-dark {
+	background-color: rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(0, 0, 0, 0.3);
+}

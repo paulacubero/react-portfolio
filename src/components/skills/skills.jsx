@@ -1,4 +1,4 @@
-import style from './style.module.css';
+import './style.css';
 import { IconoJavascript, IconoTailwind } from '../logo/logo.jsx';
 import { IconoHtml } from '../logo/logo.jsx';
 import { IconoCss } from '../logo/logo.jsx';
@@ -12,41 +12,39 @@ import { IconoGit } from '../logo/logo.jsx';
 
 export function Skills() {
 	return (
-		<div className={style.skillsWrapper}>
-			<div className={style.mainskillsWrapper}>
-				<div className={style.logo}>
+		<div className={'skillsWrapper'}>
+			<div className={'mainskillsWrapper'}>
+				{/* <div className={'logo logo-white'}>
 					<IconoHtml />
 				</div>
-				<div className={style.logo}>
+				<div className={'logo logo-white'}>
 					<IconoCss />
-				</div>
-				<div className={style.logo}>
+				</div> */}
+				<div className={'logo logo-white'}>
 					<IconoJavascript />
 				</div>
-				<div className={style.logo}>
+				<div className={'logo logo-white'}>
 					<IconoReact />
 				</div>
-				<div className={style.logo}>
+				<div className={'logo logo-white'}>
 					<Icononode />
 				</div>
-				<div className={style.logo}>
+				<div className={'logo logo-white'}>
 					<IconoJava />
 				</div>
-			</div>
-			<div className={style.mainskillsWrapper}>
-				<div className={style.logo}>
+				<div className={'logo logo-white'}>
 					<IconoMongoDB />
 				</div>
-				<div className={style.logo}>
+				<div className={'logo logo-white'}>
 					<IconoPostgress />
 				</div>
-				<div className={style.logo}>
+				<div className={'logo logo-white'}>
 					<IconoMySQL />
 				</div>
-				<div className={style.logo}>
+				<div className={'logo logo-white'}>
 					<IconoGit />
 				</div>
-				<div className={style.logo}>
+				<div className={'logo logo-white'}>
 					<IconoTailwind />
 				</div>
 			</div>
