@@ -48,8 +48,6 @@ export function Projects() {
 							Portfolio de presentación hecho con react.
 						</h4>
 						<div className={'iconosProjects'}>
-							<IconoHtml />
-							<IconoCss />
 							<IconoJavascript />
 							<IconoReact />
 							<IconoTailwind />
