@@ -4,7 +4,6 @@ import { Formation } from './components/formation/formation.jsx';
 import { Skills } from './components/skills/skills.jsx';
 import './style.css';
 import { Projects } from './components/projects/projects.jsx';
-import { Contact } from './components/contact/contact.jsx';
 
 function App() {
 	return (
@@ -18,9 +17,6 @@ function App() {
 			</Card>
 			<Card title={'HABILIDADES'}>
 				<Skills />
-			</Card>
-			<Card title={'CONTACTO'}>
-				<Contact />
 			</Card>
 		</div>
 	);

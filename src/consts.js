@@ -6,5 +6,5 @@ export const icons = {
 	['FORMACIÓN']: 'school',
 	['HABILIDADES']: 'code-slash',
 	['PROYECTOS']: 'document-attach',
-	['CONTACTO']: 'people',
+	// ['CONTACTO']: 'people',
 };

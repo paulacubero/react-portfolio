@@ -151,7 +151,7 @@ export function CVHeader() {
 					</div>
 				</div>
 			</div>
-			<hr className='px-2' />
+			<hr className='mx-8 my-6' />
 		</>
 	);
 }
