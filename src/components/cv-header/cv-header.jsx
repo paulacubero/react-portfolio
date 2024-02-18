@@ -91,22 +91,22 @@ export function CVHeader() {
 								</a>
 								<nav class='flex gap-4'>
 									{' '}
-									<button
+									<a
 										href='https://github.com/paulacubero'
 										target='_blank'
 										rel='noopener noreferrer'
 										className='btn btn-circle bg-secondary hover:bg-primary'
 										title='Go to Github'>
 										<ion-icon name='logo-github' size='large'></ion-icon>
-									</button>
-									<button
+									</a>
+									<a
 										href='https://www.linkedin.com/in/paula-cubero-encinas/'
 										target='_blank'
 										rel='noopener noreferrer'
 										className='btn btn-circle bg-secondary hover:bg-primary'
 										title='Visit LinkedIn'>
 										<ion-icon name='logo-linkedin' size='large'></ion-icon>
-									</button>
+									</a>
 								</nav>
 							</div>
 						</div>
