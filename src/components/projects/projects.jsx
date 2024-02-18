@@ -8,8 +8,8 @@ import { IconoTailwind } from '../logo/logo.jsx';
 
 export function Projects() {
 	return (
-		<div className={'formationWrapper'}>
-			<div className={'mainFormationWrapper'}>
+		<div className={'projectWrapper'}>
+			<div className={'mainProjectWrapper'}>
 				<div className={'project'}>
 					<div className={'imgProjectWrapper'}>
 						<a href=''>
@@ -37,7 +37,7 @@ export function Projects() {
 				<div className={'project'}>
 					<div className={'imgProjectWrapper'}>
 						<img
-							className={'imgProject w-96'}
+							className={'imgProject'}
 							src='/img/imgPortfolio.webp'
 							alt='img de prueba'
 						/>

@@ -72,41 +72,43 @@ export function CVHeader() {
 					</div>
 					<div className={style.mainInfoWrapper}>
 						<div className={style.title}>
-							<h1 className='titleMarginTop text-6xl font-bold '>
+							<h1 className='titleMarginTop text-4xl lg:text-6xl font-bold '>
 								Paula Cubero
 							</h1>
 						</div>
-						<div className={'flex items-center gap-4 '}>
+						<div className={'flex flex-col md:flex-row items-center gap-4 '}>
 							<h2 className='text-secondary hover:text-primary'>
 								paulacubero.e@gmail.com
 							</h2>
-							<a
-								className={
-									'p-2 flex bg-secondary btn btn-circle hover:bg-primary'
-								}
-								href='./archivo/CV_tecnologias_PaulaCuberoEncinas.pdf'
-								target='_blank'>
-								CV
-							</a>
-							<nav class='flex gap-4'>
-								{' '}
-								<button
-									href='https://github.com/paulacubero'
-									target='_blank'
-									rel='noopener noreferrer'
-									className='btn btn-circle bg-secondary hover:bg-primary'
-									title='Go to Github'>
-									<ion-icon name='logo-github' size='large'></ion-icon>
-								</button>
-								<button
-									href='https://www.linkedin.com/in/paula-cubero-encinas/'
-									target='_blank'
-									rel='noopener noreferrer'
-									className='btn btn-circle bg-secondary hover:bg-primary'
-									title='Visit LinkedIn'>
-									<ion-icon name='logo-linkedin' size='large'></ion-icon>
-								</button>
-							</nav>
+							<div className={'flex items-center gap-4'}>
+								<a
+									className={
+										'p-2 flex bg-secondary btn btn-circle hover:bg-primary'
+									}
+									href='./archivo/CV_tecnologias_PaulaCuberoEncinas.pdf'
+									target='_blank'>
+									CV
+								</a>
+								<nav class='flex gap-4'>
+									{' '}
+									<button
+										href='https://github.com/paulacubero'
+										target='_blank'
+										rel='noopener noreferrer'
+										className='btn btn-circle bg-secondary hover:bg-primary'
+										title='Go to Github'>
+										<ion-icon name='logo-github' size='large'></ion-icon>
+									</button>
+									<button
+										href='https://www.linkedin.com/in/paula-cubero-encinas/'
+										target='_blank'
+										rel='noopener noreferrer'
+										className='btn btn-circle bg-secondary hover:bg-primary'
+										title='Visit LinkedIn'>
+										<ion-icon name='logo-linkedin' size='large'></ion-icon>
+									</button>
+								</nav>
+							</div>
 						</div>
 						<div>
 							<h3>

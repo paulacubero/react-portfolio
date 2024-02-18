@@ -104,12 +104,13 @@
 	color: #ff9900; /* Cambia el color al pasar el cursor por encima */
 	text-decoration: underline; /* Subraya el texto al pasar el cursor por encima */
 }
-@media (max-width: 768px) {
-	.topSection {
-		margin-bottom: 0;
-	}
-}
 
 .ionicon-light {
 	color: #000;
+}
+
+@media (max-width: 950px) {
+	.logoWrapper {
+		flex-direction: column;
+	}
 }
