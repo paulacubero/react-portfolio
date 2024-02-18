@@ -12,7 +12,7 @@ export function Projects() {
 			<div className={'mainProjectWrapper'}>
 				<div className={'project'}>
 					<div className={'imgProjectWrapper'}>
-						<a href=''>
+						<a href='https://dubo-martial-paula.vercel.app/'>
 							<img
 								className={'imgProject'}
 								src='/img/duboMartial.webp'
@@ -40,6 +40,12 @@ export function Projects() {
 							className={'imgProject'}
 							src='/img/imgPortfolio.webp'
 							alt='img de prueba'
+							onClick={() => {
+								scrollTo({
+									top: 0,
+									behavior: 'smooth',
+								});
+							}}
 						/>
 					</div>
 					<div className={'infoProject gap-5'}>
