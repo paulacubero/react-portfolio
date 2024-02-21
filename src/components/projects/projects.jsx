@@ -21,15 +21,17 @@ export function Projects() {
             </a>
           </div>
           <div className={"infoProject gap-5"}>
-            <h3 className={"textProjects text-2xl"}>Dubo Martial Arts</h3>
+            <h3 className={"textProjects text-2xl font-bold"}>
+              Dubo Martial Arts
+            </h3>
             <h4 className={"textProjects"}>
               Web multipagina, con conexión a Mongo Atlas y gestión de sesiones
             </h4>
             <div className={"iconosProjects"}>
-              <IconoHtml />
-              <IconoCss />
-              <IconoJavascript />
-              <Icononode />
+              <IconoHtml width={35} height={35} />
+              <IconoCss width={35} height={35} />
+              <IconoJavascript width={35} height={35} />
+              <Icononode width={35} height={35} />
             </div>
           </div>
         </div>
@@ -49,14 +51,16 @@ export function Projects() {
             />
           </div>
           <div className={"infoProject gap-5"}>
-            <h3 className={"textProjects text-2xl"}>Potfolio personal</h3>
+            <h3 className={"textProjects text-2xl font-bold"}>
+              Potfolio personal
+            </h3>
             <h4 className={"textProjects"}>
               Portfolio de presentación hecho con react.
             </h4>
             <div className={"iconosProjects"}>
-              <IconoJavascript />
-              <IconoReact />
-              <IconoTailwind />
+              <IconoJavascript width={35} height={35} />
+              <IconoReact width={35} height={35} />
+              <IconoTailwind width={35} height={35} />
             </div>
           </div>
         </div>

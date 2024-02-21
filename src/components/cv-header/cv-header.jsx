@@ -116,8 +116,11 @@ export function CVHeader() {
               </div>
             </div>
             <div>
-              <h3>
-                Programadora Junior con muchas ganas de seguir aprendiedo.
+              <h3 className="text-center">
+                <span className="bg-primary  bg-clip-text text-transparent font-medium italic ">
+                  Desarrolladora de Software
+                </span>{" "}
+                con muchas ganas de seguir aprendiedo.
               </h3>
             </div>
           </div>

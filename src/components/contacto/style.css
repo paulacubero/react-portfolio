@@ -1,0 +1,18 @@
+.iconsContacts {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.email {
+	cursor: pointer;
+}
+
+.logo:hover {
+	filter: brightness(150%);
+}
+
+.mainFormationWrapper {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
