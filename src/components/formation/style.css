@@ -1,11 +1,13 @@
 .formationWrapper {
 	display: flex;
 	padding: 0.5rem 3.5rem;
+	justify-content: center;
 }
 
 .mainFormationWrapper {
 	display: flex;
 	flex-direction: column;
+	text-align: center;
 }
 
 .years {
@@ -16,3 +18,5 @@
 .sub-formacion {
 	font-size: 16px;
 }
+
+
